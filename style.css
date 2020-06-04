@@ -1,0 +1,77 @@
+.logo {
+    width: 120px;
+    height: auto;
+}
+
+.nav-item > .nav-link:hover,
+.dropdown-item:hover {
+    color: #0072CE !important;
+}
+
+ion-icon,
+.fa-truck,
+.fa-thumbs-up {
+    font-size: 40px;
+    color: #0072CE;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.main-card {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.card-1,
+.card-2,
+.card-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 100px;
+    border: 2px solid #FFB81C;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+h3 {
+    padding: 10px;
+}
+
+.heading > h2 {
+    text-align: center;
+    color: #0072CE;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.align {
+    text-align: center;
+}
+
+.card {
+    margin: 5px;
+    width: 300px;
+    height: auto;
+}
+
+.btn-primary {
+    width: 100% !important;
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+footer {
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    background-color: #0072CE;
+    margin-top: 20px;
+    padding: 10px;
+}
