@@ -8,7 +8,7 @@
     color: #0072CE !important;
 }
 
-ion-icon,
+.headset,
 .fa-truck,
 .fa-thumbs-up {
     font-size: 40px;
@@ -68,10 +68,33 @@ h3 {
 }
 
 footer {
-    text-align: center;
-    font-size: 40px;
+    width: auto;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
     color: #fff;
     background-color: #0072CE;
     margin-top: 20px;
     padding: 10px;
+}
+
+.ScrollToTop {
+    background-color: rgba(0, 114, 206, 0.5);
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 15px;
+    bottom: 8px;
+    text-align: center;
+    text-decoration: none;
+    padding: 2px;
+    z-index: 99999;
+}
+
+.chevron-up {
+    color: #fff;
+    font-size: 42px;
+    padding: 2px;
 }
